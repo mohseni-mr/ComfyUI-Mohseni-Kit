@@ -1,0 +1,25 @@
+{
+    "python.formatting.provider": "black",
+    "editor.formatOnSave": true,
+    "[python]": {
+        "editor.defaultFormatter": "ms-python.black-formatter",
+        "editor.formatOnSave": true,
+        "editor.codeActionsOnSave": {
+            "source.organizeImports": "explicit"
+        }
+    },
+    "isort.args": [
+        "--profile",
+        "black"
+    ],
+    "editor.codeActionsOnSave": {
+        "source.fixAll.markdownlint": "always",
+    },
+    "python.analysis.autoFormatStrings": true,
+    "markdownlint.config": {
+        "default": true,
+        "MD013": false,
+        "MD024": false,
+        "MD040": false
+    }
+}
