@@ -1,5 +1,5 @@
 [project]
-name = "mohseni-kit"
+name = "ComfyUI-Mohseni-Kit"
 description = "A collection of useful nodes for ComfyUI"
 version = "1.0.0"
 license = {file = "LICENSE"}
